@@ -12,7 +12,7 @@ pool:
 steps:
 - task: UseNode@1
   inputs:
-    versionSpec: '24.x'
+    version: '24.x'
   displayName: 'Install Node.js'
 
 - script: |
